@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    align-items: center;
+    padding-top: 5rem;
+    flex-direction: column;
+}
+
+
+
+.search_phrase_button{
+    background: -webkit-linear-gradient(top left, #007d35 0%, #007d35 40%, #0f574e 100%);
+background-size: 300px;
+font-family: Arial, Helvetica, sans-serif;
+color: #fff;
+margin-top: 3rem;
+padding: 1rem 3rem;
+font-size: 2rem;
+border: 2px solid black;
+
+transition: background-size .8s ease;
+}
+.search_phrase_button:hover{
+  cursor: pointer;
+  background-size: 500px;
+}
+.phrase_container{
+    padding: 3rem;
+    border-radius: .5rem;
+    background-color: #fff;
+    max-width: 800px;
+    margin-top: 10rem;
+}
+
+.phrase_container h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    padding-left: 4rem;
+}
+
+.phrase_container p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.6rem;
+    text-align: right;
+    color: #666;
+    margin-top: 2rem;
+    font-weight: bold;
+}
+
+
+
